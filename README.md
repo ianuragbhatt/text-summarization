@@ -1,33 +1,37 @@
 # Text Summarization using different LLM's
 
 ## Overview
-* In these notebooks I am using different LLM's models to do abstractive and extractive summarization.
-* I am also fine-tuning those model with **Financial datasets** and using **BLUE score** to check pretrained and fine-tuned model scores.
+* In these notebooks we are using different LLM's models to do text summarization.
+* Our objective is to fine-tuned these models on financial dataset **[FINDSum](https://github.com/StevenLau6/FINDSum)** and compare different LLM's
 
-## Index
-* [Abstractive](#abstractive)
-* [Extractive](#extractive)
 
-## Abstractive
+## About Dataset
+* We are using **[FINDSum](https://github.com/StevenLau6/FINDSum)** dataset which have financial paragraphs and there summaries.
+* We have build a sample dataset from `FINDSum-Liquidity/liquidity_input_2000/` where we got train, test and val datasets.
+* You can find [preprocess.ipynb](https://github.com/ianuragbhatt/text-summarization/preprocess.ipynb) where we have extracted the sample datasets.
 
-IPython Notebook(s) for Abstractive text summarization.
 
-| Notebook | Description | BLUE Score |
+## Summarization
+
+IPython Notebook(s) for text summarization.
+
+| Notebook | BLEU Score | Description | 
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [ktrain_deployment_text_classification.ipynb](https://github.com/ianuragbhatt/ipython-jupyter-notebooks/blob/master/ktrain/ktrain_deployment_text_classification.ipynb) | Learn basic of ktrain for text classification and how to save the model and use it for deployment. |
+| [ts_abstractive_GPT2.ipynb](https://github.com/ianuragbhatt/text-summarization/ts_abstractive_GPT2.ipynb) | 0 | Fine-tuned GPT2 on FINDSum `samples=1322` to do abstractive summarization.|
+| [ts_abstractive_T5.ipynb](https://github.com/ianuragbhatt/text-summarization/ts_abstractive_T5.ipynb) | 0 | Fine-tuned T5 on FINDSum `samples=1322` to do abstractive summarization.|
 
-## Extractive
+<!-- ## Extractive
 
 Jupyter Notebooks with Extractive Summarization
 
 | Notebook | Description | BLUE Score |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [ssm-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/ssm-lambda.py) | Fetch online SSM instance details using LAMBDA. | 0.00 |
+| [ssm-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/ssm-lambda.py) | Fetch online SSM instance details using LAMBDA. | 0.00 | -->
 
-<!-- ## credits -->
+## credits
 
-<!-- * [Template for this repository](https://github.com/donnemartin/data-science-ipython-notebooks) by Donne Martin -->
-<!-- * [ktrain tutorials](https://github.com/amaiya/ktrain) by Arun S. Maiya -->
+* [Template for this repository](https://github.com/donnemartin/data-science-ipython-notebooks) by Donne Martin
+* [FINDSum Dataset](https://github.com/StevenLau6/FINDSum)
 
 ## contributing
 
