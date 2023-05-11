@@ -17,8 +17,8 @@ IPython Notebook(s) for text summarization.
 
 | Notebook | BLEU Score | Description | 
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [ts_abstractive_GPT2.ipynb](https://github.com/ianuragbhatt/text-summarization/ts_abstractive_GPT2.ipynb) | 0 | Fine-tuned GPT2 on FINDSum `samples=1322` to do abstractive summarization.|
-| [ts_abstractive_T5.ipynb](https://github.com/ianuragbhatt/text-summarization/ts_abstractive_T5.ipynb) | 0 | Fine-tuned T5 on FINDSum `samples=1322` to do abstractive summarization.|
+| [ts_abstractive_GPT2.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_GPT2.ipynb) | 0 | Fine-tuned GPT2 on FINDSum `samples=1322` to do abstractive summarization.|
+| [ts_abstractive_T5.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_T5.ipynb) | 0 | Fine-tuned T5 on FINDSum `samples=1322` to do abstractive summarization.|
 
 <!-- ## Extractive
 
