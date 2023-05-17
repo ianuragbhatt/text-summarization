@@ -18,7 +18,8 @@ IPython Notebook(s) for text summarization.
 | Notebook | BLEU Score | Description | Conclusion |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [ts_abstractive_GPT2.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_GPT2.ipynb) | 0 | Fine-tuned `GPT2` on FINDSum `samples=5000` to do abstractive summarization got **poor BLEU score**. Then tested `GPT2-medium` and `GPT2-large` got same results.| `GPT2` performance on `FINDSum` dataset is very poor which concludes that it is not good at summarization, specially on Financial dataset.
-| [ts_abstractive_T5.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_T5.ipynb) | 0 | Fine-tuned T5 on FINDSum `samples=1322` to do abstractive summarization.|
+| [ts_abstractive_T5.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_T5.ipynb) | 0 | Fine-tuned T5 on FINDSum `samples=1322` to do abstractive summarization.|   |
+| [ts_abstractive_BART.ipynb](https://github.com/ianuragbhatt/text-summarization/blob/main/ts_abstractive_BART.ipynb) | 0 | Fine-tuned `BART` on FINDSum `samples=5000` and `samples=2000` to do abstractive summarization got **poor BLEU score**.| `BART` performance on `FINDSum` dataset is very poor but better then GPT2 needs more experementations.
 
 <!-- ## Extractive
 
